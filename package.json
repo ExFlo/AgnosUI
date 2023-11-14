@@ -247,6 +247,7 @@
 		"svelte/demo",
 		"svelte/ssr-app",
 		"svelte/preprocess",
+		"qwik-app",
 		"demo",
 		"eslint-plugin",
 		"base-po",

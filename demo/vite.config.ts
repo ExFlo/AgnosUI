@@ -33,6 +33,10 @@ const proxy: Record<string, string | ProxyOptions> = {
 		ws: true,
 		agent: new http.Agent({keepAlive: true}),
 	},
+	'/qwik/samples': {
+		target: 'http://localhost:3002',
+		ws: true,
+	},
 };
 
 const version = JSON.stringify((pkg as any).version ?? '0.0.0');
